@@ -3,6 +3,10 @@
 
 # 👒 lufi-fail2ban-addon
 Script permettant d'ajouter la fonction fail2ban à Lufi (LDAP)
+- Possibilité de cboisir le temps du ban
+- Possibilité de choisir le nombre de tentative
+- Possibilité d'exclure les IP internes
+
  
 ## 🐧 Linux distribution 
 ✅ Debian 10  ✅ Debian 11  ✅ Ubuntu 20
