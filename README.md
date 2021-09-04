@@ -24,5 +24,5 @@ Script permettant d'ajouter la fonction 🚫 fail2ban à Lufi (LDAP)
 
 ### Exéctuer le script en root:
 
-`./lufi-fail2ban-addon`
+`./lufi-fail2ban-addon.sh`
 
