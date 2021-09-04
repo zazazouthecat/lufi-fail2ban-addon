@@ -137,7 +137,7 @@ echo
 		cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
 		
 		echo -e "${CYAN}Téléchargement du fichier filter Lufi pour Fail2Ban...${NC}"
-		wget --no-check-certificate -q --show-progress https://raw.githubusercontent.com/zazazouthecat/lufi-install/main/fail2ban/filter/lufi.conf /etc/fail2ban/filter.d/lufi.conf
+		wget --no-check-certificate -q --show-progress https://raw.githubusercontent.com/zazazouthecat/lufi-fail2ban-addon/main/fail2ban/filter.d/lufi.conf -O /etc/fail2ban/filter.d/lufi.conf
 
 		
 		echo "[lufi]" >> /etc/fail2ban/jail.d/lufi.conf
